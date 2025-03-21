@@ -13,6 +13,8 @@ a {
 }
 header {
     background-color: #efefef;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 header a {
     text-decoration: none;
@@ -77,9 +79,10 @@ footer img {
 }
 
 .row {
+    margin-left: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 65%;
+    width: 60%;
 }
 
 .row:last-of-type .event-block {
@@ -96,11 +99,11 @@ footer img {
 }
 
 .featured:first-of-type .block {
-    width: 500px;
+    width: 480px;
 }
 
 .col img {
-    height: 200px;
+    height: 210px;
 }
 
 .featured img {
