@@ -47,10 +47,7 @@ body {
 .g3 {
     height: 400px;
     display: grid;
-}
-
-.g3 .row {
-    margin-bottom: 10px;
+    gap: 10px;
 }
 
 .g3 .col {
@@ -60,7 +57,7 @@ body {
 }
 
 aside {
-    height: 320px;
+    height: 340px;
     background-color: lightpink;
 }
 
@@ -75,12 +72,12 @@ footer {
 
 .articles {
     background-color: mediumaquamarine;
-    height: 60%;
+    height: 61%;
     margin-bottom: 10px;
 }
 
 .featured {
     background-color: lightyellow;
-    height: 34%;
+    height: 36%;
 }
 
